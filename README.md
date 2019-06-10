@@ -2,7 +2,7 @@ Asteroids (Part 2)
 ==================
 Now that we have a functioning space ship, we'll add some asteroids to our game. First we'll write an asteroid class that `extends Floater`.
 
-Suggested teps to writing an Asteroid class
+Suggested steps to writing an Asteroid class
 -----------------------------------
 1. Create a new `Asteroid.pde` file in your `AsteroidsGame` folder. One way to do this is in Sublime is to choose *New | New File* and
 then choose *File | Save as* and name your file `Asteroid.pde`. 
