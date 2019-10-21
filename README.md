@@ -7,7 +7,7 @@ Suggested steps to writing an Asteroid class
 1. Create a new `Asteroid.pde` file in your `AsteroidsGame` folder. One way to do this is in Sublime is to choose *New | New File* and
 then choose *File | Save as* and name your file `Asteroid.pde`. 
 2. Write an `Asteroid` class that `extends Floater` in your Asteroid.pde file. You will need to
-write a constructor and the code to "finish" the `abstract` methods in the Floater class
+write a constructor and a `move()`
 2. On line 14 of `index.html` add `Asteroid.pde` to the list of files in `data-processing-sources`. The canvas tag should now look like `<canvas id="AsteroidsGame" data-processing-sources="Asteroid.pde AsteroidsGame.pde Floater.pde Spaceship.pde Stars.pde">
 				</canvas>`. Now choose *File | Save*.
 2. Add a `int` member variable of the `Asteroid` class. It will hold the speed of rotation for each asteroid. Make sure that this is initialized to have an equal probablility of being positive or negative. Also make sure to declare it appropriately (should it be `public` or `private`?)
