@@ -28,9 +28,9 @@ An array probably isn't the best way to keep track of a bunch of asteroids. Arra
 Suggested steps to adding an `ArrayList` of Asteroids and finishing the project
 -----------------------------------
 
-1. Create an `ArrayList` of type `Asteroid`. You may find the [ArrayList worksheet](https://drive.google.com/file/d/0Bz2ZkT6qWPYTQjFTMjhPaGNXb1E/view?usp=sharing) and the [ArrayList slide presentation](https://docs.google.com/presentation/d/1yDXGypcooCoeUa7GD99bYooRU1vBk63lC0G2JEOdTaY/edit?usp=sharing) helpful.
+1. Create an `ArrayList` of type `Asteroid`. You may find the [ArrayList slide presentation](https://docs.google.com/presentation/d/1yDXGypcooCoeUa7GD99bYooRU1vBk63lC0G2JEOdTaY/edit?usp=sharing) helpful.
 2. Now we'll modify the program so that when our space ship strikes an asteroid, the asteroid is removed from the `ArrayList`. Everytime an asteroid moves find the distance between that asteroid and the ship. Use processing's [`dist()`](https://processing.org/reference/dist_.html) function to find the distance between that asteroid and the ship. If the distance is less than 20 (or whatever value is appropriate for your game) remove the asteroid from the ArrayList. Otherwise, move and rotate the asteroid normally
-3. Submit the same URL for your AsteroidsGame that you submitted for the two previous assignments to Google Classroom.
+3. Submit the same URL for your AsteroidsGame that you submitted for the previous assignment to Google Classroom.
 
 
  
