@@ -12,7 +12,7 @@ write a constructor and a `move()`
 				</canvas>`. Now choose *File | Save*.
 2. Add a `int` member variable of the `Asteroid` class. It will hold the speed of rotation for each asteroid. Make sure that this is initialized to have an equal probablility of being positive or negative. Also make sure to declare it appropriately (should it be `public` or `private`?)
 3. "Override" the `move()` method of the Floater class by writing a new `move()` method in the Asteroid class that also `turn`s (rotates) each Asteroid at its own speed
-4. Now add just a single asteroid to your applet. Start by just calling the Asteroid's `show()` function. Make sure you can see it and are happy with its shape before going to the next step.
+4. Now add just a single asteroid to your program. Start by just calling the Asteroid's `show()` function. Make sure you can see it and are happy with its shape before going to the next step.
 5. Now add the code that moves and rotates the Asteroid   
 
 Adding an `ArrayList`
