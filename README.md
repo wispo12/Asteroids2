@@ -4,8 +4,7 @@ Now that we have a functioning space ship, we'll add some asteroids to our game.
 
 Suggested steps to writing an Asteroid class
 -----------------------------------
-1. Create a new `Asteroid.pde` file in your `AsteroidsGame` folder. One way to do this is in Sublime is to choose *New | New File* and
-then choose *File | Save as* and name your file `Asteroid.pde`. 
+1. Create a new tab in your `AsteroidsGame` program. Name the new tab file `Asteroid.pde`. 
 2. Write an `Asteroid` class that `extends Floater` in your Asteroid.pde file. You will need to
 write the following members and label them appropriately (`public` or `private`?):
    - a member variable to hold the speed of rotation for each asteroid
@@ -15,11 +14,11 @@ write the following members and label them appropriately (`public` or `private`?
 2. On line 14 of `index.html` add `Asteroid.pde` to the list of files in `data-processing-sources`. The canvas tag should now look like `<canvas id="AsteroidsGame" data-processing-sources="Asteroid.pde AsteroidsGame.pde Floater.pde Spaceship.pde Stars.pde">
 				</canvas>`. Now choose *File | Save*.
 4. Now add just a single asteroid to your program. Start by just calling the Asteroid's `show()` function. Make sure you can see it and are happy with its shape before going to the next step.
-5. Now add the code that moves and rotates the Asteroid   
+5. Now add the code that moves and rotates the Asteroid. The best way to do this is to *override* the inherited `move()` function so that asteroids rotate as they move. 
 
 Adding an `ArrayList`
 -------------------
-An array probably isn't the best way to keep track of a bunch of asteroids. Arrays have a fixed size. You can't easily add or remove asteroids from an array as they are destroyed or created. A better choice might be an `ArrayList`. The `ArrayList` class has a number of useful member methods:
+An array probably isn't the best way to keep track of a bunch of asteroids. Arrays have a fixed size. You can't easily add or remove asteroids from an array as they are destroyed or created. A better choice might be an `ArrayList`. The `ArrayList` class has a number of useful member methods that you are expected to how how to use on the AP exam:
 - `boolean add(Object x)`
 - `void add(int index, Object element)`
 - `Object get(int index)`
