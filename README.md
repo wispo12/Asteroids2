@@ -1,6 +1,6 @@
 Asteroids (Part 2)
 ==================
-Now that we have a functioning space ship, we'll add some asteroids to our game. To do that, we'll write an asteroid class that `extends Floater`.
+Now that we have a functioning space ship, we'll add some asteroids to our game. To do that, we'll write an asteroid class that `extends Floater`. You may find slides of the [Asteroids Parts 2 and 3](https://docs.google.com/presentation/d/18BHIU7ZbeqyV_DKzNzGpg_vm4Oki63K7ZYkOlyPaQE8/edit?usp=sharing) helpful in completing this assignment.
 
 Suggested steps to writing an Asteroid class
 -----------------------------------
