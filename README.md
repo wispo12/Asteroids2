@@ -11,7 +11,7 @@ write the following members and label them appropriately (`public` or `private`?
    - a constructor to initialize all 10 variables (the speed of rotation plus the 9 inherited variables from `Floater`)
    - a `move()` method that also `turn`s (rotates) each Asteroid at its own speed
    - "getter" (accessor) functions for `myCenterX` and `myCenterY`
-2. On line 14 of `index.html` add `Asteroid.pde` to the list of files in `data-processing-sources`. The canvas tag should now look like `<canvas id="AsteroidsGame" data-processing-sources="Asteroid.pde AsteroidsGame.pde Floater.pde Spaceship.pde Stars.pde">
+2. On line 14 of `index.html` add `Asteroid.pde` to the list of files in `data-processing-sources`. The canvas tag should now look like `<canvas id="AsteroidsGame" data-processing-sources="Asteroid.pde AsteroidsGame.pde Floater.pde Spaceship.pde Star.pde">
 				</canvas>`. Now choose *File | Save*.
 4. Now add just a single asteroid to your program. Start by just calling the Asteroid's `show()` function. Make sure you can see it and are happy with its shape before going to the next step.
 5. Now add the code that moves and rotates the Asteroid. The best way to do this is to *override* the inherited `move()` function so that asteroids rotate as they move. 
