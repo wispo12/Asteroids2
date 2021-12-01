@@ -34,7 +34,7 @@ An array probably isn't the best way to keep track of a bunch of asteroids. Arra
 - `Object set(int index, Object x)`
 - `int size()`
 
-Suggested steps to adding an `ArrayList` of Asteroids and finishing the project
+Suggested steps to adding an `ArrayList` of Asteroids and finishing part 2
 -----------------------------------
 
 6. Create an `ArrayList` of type `Asteroid`. You may find the [ArrayList slide presentation](https://docs.google.com/presentation/d/1yDXGypcooCoeUa7GD99bYooRU1vBk63lC0G2JEOdTaY/edit?usp=sharing) helpful.
