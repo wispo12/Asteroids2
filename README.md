@@ -26,7 +26,7 @@ write the following members and label them appropriately (`public` or `private`?
 
 `ArrayList`
 -------------------
-An array probably isn't the best way to keep track of a bunch of asteroids. Arrays have a fixed size. You can't easily add or remove asteroids from an array as they are destroyed or created. A better choice might be an `ArrayList`. The `ArrayList` class has a number of useful member methods that you are expected to how how to use on the AP exam:
+An array probably isn't the best way to keep track of a bunch of asteroids. Arrays have a fixed size. You can't easily add or remove asteroids from an array as they are destroyed or created. A better choice might be an `ArrayList`. The `ArrayList` class has a number of useful member methods that you are expected to know how to use on the AP exam:
 - `boolean add(Object x)`
 - `void add(int index, Object element)`
 - `Object get(int index)`
