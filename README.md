@@ -2,8 +2,16 @@ Asteroids (Part 2)
 ==================
 Now that we have a functioning space ship, we'll add some asteroids to our game. To do that, we'll write an asteroid class that `extends Floater`. You may find slides of the [Asteroids Parts 2 and 3](https://docs.google.com/presentation/d/18BHIU7ZbeqyV_DKzNzGpg_vm4Oki63K7ZYkOlyPaQE8/edit?usp=sharing) helpful in completing this assignment.
 
-Suggested steps to writing an Asteroid class
+Program requirements
 -----------------------------------
+* An `Asteroid` class that extends `Floater` 
+* The `Asteroid` class should **override** the inherited `move()` function so that the asteroids turn as they move
+* The `Asteroid` class should have a `private` member variable that stores the speed of turning (which could be randomly positive or negative)
+* An `ArrayList` of type `Asteroid` with at least 5 instances of type `Asteroid`
+* If the space ship collides with an asteroid, the asteroid should be removed from the `ArrayList`
+
+Suggested steps to writing an Asteroid class
+----------------------------------- 
 1. Create a new tab in your `AsteroidsGame` program. Name the new tab file `Asteroid.pde`. 
 2. Write an `Asteroid` class that `extends Floater` in your Asteroid.pde file. You will need to
 write the following members and label them appropriately (`public` or `private`?):
