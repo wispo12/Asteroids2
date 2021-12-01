@@ -24,7 +24,7 @@ write the following members and label them appropriately (`public` or `private`?
 4. Now add just a single asteroid to your program. Start by just calling the Asteroid's `show()` function. Make sure you can see it and are happy with its shape before going to the next step.
 5. Now add the code that moves and rotates the Asteroid. The best way to do this is to *override* the inherited `move()` function so that asteroids rotate as they move. 
 
-Adding an `ArrayList`
+`ArrayList`
 -------------------
 An array probably isn't the best way to keep track of a bunch of asteroids. Arrays have a fixed size. You can't easily add or remove asteroids from an array as they are destroyed or created. A better choice might be an `ArrayList`. The `ArrayList` class has a number of useful member methods that you are expected to how how to use on the AP exam:
 - `boolean add(Object x)`
