@@ -6,7 +6,7 @@ Program requirements
 -----------------------------------
 * An `Asteroid` class that extends `Floater` 
 * The `Asteroid` class should **override** the inherited `move()` function so that the asteroids turn as they move
-* The `Asteroid` class should have a `private` member variable that stores the speed of turning (which could be randomly positive or negative)
+* The `Asteroid` class should have a member variable that stores the speed of turning (which could be randomly positive or negative)
 * An `ArrayList` of type `Asteroid` with at least 5 instances of type `Asteroid`
 * If the space ship collides with an asteroid, the asteroid should be removed from the `ArrayList`
 
